@@ -28,7 +28,7 @@ public class RhythmGame extends JFrame{
         g.drawImage(screenImage, 0, 0, null);
     }
     public void screenDraw(Graphics g) {
-        g.drawImage(screenImage, 0, 0, null);
+        g.drawImage(introBackground, 0, 0, null);
         this.repaint();
 
 
